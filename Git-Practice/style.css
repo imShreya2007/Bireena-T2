@@ -1,8 +1,19 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  overflow: hidden;
+  overflow-x: hidden;
 }
+
+nav {
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+nav h1{
+    color: #fff;
+}
+
 
 header {
   height: 100vh;
@@ -21,4 +32,14 @@ button {
   color: #333;
   cursor: pointer;
   margin-top: 10px;
+}
+
+footer {
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p{
+    color: #fff;
 }

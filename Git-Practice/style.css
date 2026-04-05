@@ -4,6 +4,17 @@ body {
   overflow: hidden;
 }
 
+nav {
+  background: #000000;
+  padding: 10px;
+  text-align: center;
+}
+
+nav h1{
+    color: #fff;
+}
+
+
 header {
   height: 100vh;
   background: linear-gradient(to right, #667eea, #764ba2);
